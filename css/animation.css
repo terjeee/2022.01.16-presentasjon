@@ -1,0 +1,17 @@
+@keyframes ani-h1 {
+  to {
+    transform: translate(0, 0);
+  }
+}
+
+@keyframes ani-p {
+  to {
+    transform: translate(0, 0);
+  }
+}
+
+@keyframes ani-a {
+  to {
+    transform: translate(0, 0);
+  }
+}

@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+/* --- Fargekart --- */
+
+:root {
+  --bg-main: #002642;
+  --bg-secondary: #840032;
+  --white-main: #fff;
+  --black-main: #25291C;
+}
+
+/* --- Generell Styling --- */
+
+html {
+  width: 100vw;
+  overflow: hidden;
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  color: var(--white-main);
+}
+
+* {
+  box-sizing: border-box;
+  text-align: center;
+  padding: 0;
+  margin: 0; 
+}
+
+/* --- Element Styling --- */
+
+h1 {
+  padding: 1rem;
+  font-size: 5rem;
+  font-weight: 600;
+  line-height: 1;
+}
+
+h1>span {
+  font-size: 2rem;
+}
+
+p {
+  /* (For Readability) */
+  max-width: 701px;
+
+  padding: 1rem 2rem;
+  font-size: 1.9rem;
+  line-height: 1.6;
+}
+
+/* --- Max Width --- */
+
+.maxwidth {
+  max-width: 701px;
+}
+
+/* --- Button --- */
+
+.btn {
+  display: inline-block;
+  padding: 1.5rem 0.25em;
+  font-size: 4rem;
+  color: var(--white-main);
+}
+  
+.btn i:hover {
+  color: #ccc;
+}

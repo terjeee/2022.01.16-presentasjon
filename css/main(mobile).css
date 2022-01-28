@@ -1,0 +1,36 @@
+.page1,
+.page3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: var(--bg-main);
+}
+
+.page2,
+.page4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: var(--bg-secondary);
+}
+
+/* --- Animation --- */
+
+.page1 h1 {
+  transform: translate(0, -100rem);
+  animation: ani-h1 1s forwards ease-out;
+}
+
+.page1 p {
+  transform: translate(200rem, 0);
+  animation: ani-p 2s forwards ease-out;
+}
+
+.page1 a {
+  transform: translate(-200rem, 0);
+  animation: ani-a 2s forwards ease-out;
+}
